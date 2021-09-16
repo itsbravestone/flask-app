@@ -5,3 +5,5 @@ app = Flask(__name__)
 @app.route('/')
 def main():
     return "Hello there!"
+
+app.run(debug=True)
