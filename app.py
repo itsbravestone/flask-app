@@ -6,4 +6,8 @@ app = Flask(__name__)
 def main():
     return "Hello there!"
 
+@app.route('/dev')
+def dev():
+    return "Steve"
+
 app.run(debug=True)
