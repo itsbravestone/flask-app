@@ -8,6 +8,6 @@ def main():
 
 @app.route('/dev')
 def dev():
-    return "Steve"
+    return "Steve."
 
 app.run(debug=True, port=8080)
