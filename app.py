@@ -10,4 +10,8 @@ def main():
 def dev():
     return make_response("Bravestone")
 
+@app.route('/hello')
+def dev():
+    return make_response("Hello")
+
 app.run(debug=True, port=8080)
