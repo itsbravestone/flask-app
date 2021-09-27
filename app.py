@@ -12,6 +12,6 @@ def dev():
 
 @app.route('/hello')
 def dev():
-    return make_response("Hello")
+    return make_response("Hello there")
 
 app.run(debug=True, port=8080)
