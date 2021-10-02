@@ -12,7 +12,7 @@ def dev():
 
 @app.route('/hello')
 def hello():
-    hello = "hey"
+    hello = "hey there"
     return make_response("Hello there", hello)
 
 app.run(debug=True, port=8080)
