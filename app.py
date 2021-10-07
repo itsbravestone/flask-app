@@ -15,4 +15,9 @@ def hello():
     hello = "hey there"
     return make_response("Hello there", hello)
 
+@app.route('/bye')
+def hello():
+    bye = "bye"
+    return make_response("bye", bye)
+
 app.run(debug=True, port=8080)
