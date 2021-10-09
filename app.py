@@ -22,7 +22,12 @@ def hello():
 
 @app.route('/test1')
 def test1():
-    bye = "test"
+    test = "test"
     return make_response("test", test)
+
+@app.route('/test2')
+def test2():
+    test2 = "test2"
+    return make_response("test2", test2)
 
 app.run(debug=True, port=8080)
