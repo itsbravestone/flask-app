@@ -70,49 +70,4 @@ def test10():
     test10 = "test10"
     return make_response("test10", test10)
 
-@app.route('/test11')
-def test11():
-    test11 = "test11"
-    return make_response("test11", test11)
-
-@app.route('/test12')
-def test12():
-    test12 = "test12"
-    return make_response("test12", test12)
-
-@app.route('/test13')
-def test13():
-    test13 = "test13"
-    return make_response("test13", test13)
-
-@app.route('/test14')
-def test14():
-    test14 = "test14"
-    return make_response("test14", test14)
-
-@app.route('/test15')
-def test15():
-    test14 = "test15"
-    return make_response("test15", test15)
-
-@app.route('/test16')
-def test16():
-    test14 = "test15"
-    return make_response("test15", test15)
-
-@app.route('/test17')
-def test17():
-    test14 = "test15"
-    return make_response("test15", test15)
-
-@app.route('/test18')
-def test18():
-    test14 = "test15"
-    return make_response("test15", test15)
-
-@app.route('/test19')
-def test19():
-    test14 = "test15"
-    return make_response("test15", test15)
-
 app.run(debug=True, port=8080)
