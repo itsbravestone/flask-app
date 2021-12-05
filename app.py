@@ -30,44 +30,4 @@ def test2():
     test = "test"
     return make_response("test", test)
 
-@app.route('/test3')
-def test3():
-    test = "test"
-    return make_response("test", test)
-
-@app.route('/test4')
-def test4():
-    test = "test"
-    return make_response("test", test)
-
-@app.route('/test5')
-def test5():
-    test = "test"
-    return make_response("test", test)
-
-@app.route('/test6')
-def test6():
-    test = "test"
-    return make_response("test", test)
-
-@app.route('/test7')
-def test7():
-    test = "test"
-    return make_response("test", test)
-
-@app.route('/test8')
-def test8():
-    test = "test"
-    return make_response("test", test)
-
-@app.route('/test9')
-def test9():
-    test = "test"
-    return make_response("test", test)
-
-@app.route('/test10')
-def test10():
-    test = "test"
-    return make_response("test", test)
-
 app.run(debug=True, port=8080)
