@@ -30,4 +30,9 @@ def test2():
     test = "test"
     return make_response("test", test)
 
+@app.route('/test3')
+def test3():
+    test = "test"
+    return make_response("test", test)
+
 app.run(debug=True, port=8080)
