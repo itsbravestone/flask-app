@@ -27,7 +27,12 @@ def test1():
 
 @app.route('/test2')
 def test1():
-    test2 = "test"
-    return make_response("test2", test2)
+    test = "test"
+    return make_response("test", test)
+
+@app.route('/test3')
+def test3():
+    test = "test"
+    return make_response("test", test)
 
 app.run(debug=True, port=8080)
