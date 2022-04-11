@@ -30,6 +30,11 @@ def test2():
     test = "test"
     return make_response("test", test)
 
+@app.route('/test11')
+def test11():
+    test = "test"
+    return make_response("test", test)
+
 @app.route('/test3')
 def test3():
     test = "test"
@@ -70,8 +75,8 @@ def test10():
     test = "test"
     return make_response("test", test)
 
-@app.route('/test11')
-def test11():
+@app.route('/test12')
+def test12():
     test = "test"
     return make_response("test", test)
 
