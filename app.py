@@ -90,5 +90,10 @@ def test14():
     test = "test"
     return make_response("test", test)
 
+@app.route('/test15')
+def test15():
+    test = "test"
+    return make_response("test", test)
+
 
 app.run(debug=True, port=8080)
