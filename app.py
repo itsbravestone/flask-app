@@ -440,8 +440,13 @@ def test84():
     test = "test"
     return make_response("test", test)
 
-app.route('/test85')
-def test85():
+app.route('/test84')
+def test84():
+    test = "test"
+    return make_response("test", test)
+
+app.route('/test86')
+def test86():
     test = "test"
     return make_response("test", test)
 
