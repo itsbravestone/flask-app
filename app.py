@@ -460,6 +460,11 @@ def test88():
     test = "test"
     return make_response("test", test)
 
+app.route('/test89')
+def test89():
+    test = "test"
+    return make_response("test", test)
+
 
 
 
