@@ -490,6 +490,11 @@ def test94():
     test = "test"
     return make_response("test", test)
 
+app.route('/test95')
+def test95():
+    test = "test"
+    return make_response("test", test)
+
 
 
 
