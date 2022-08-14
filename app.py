@@ -25,6 +25,11 @@ def test1():
     test = "test"
     return make_response("test", test)
 
+@app.route('/test2')
+def test2():
+    test = "test"
+    return make_response("test", test)
+
 
 
 
