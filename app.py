@@ -50,6 +50,11 @@ def test6():
     test = "test"
     return make_response("test", test)
 
+@app.route('/test7')
+def test7():
+    test = "test"
+    return make_response("test", test)
+
 
 
 
